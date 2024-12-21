@@ -1,0 +1,47 @@
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+.custom-bg {
+    background-color: rgba(59, 107, 59, 0.8) !important;
+    backdrop-filter: blur(10px);
+}
+body {
+    background-color: #FFFAFB;
+}
+th, td {
+    background-color: #FFFAFB !important;
+    color: #013120 !important;
+}
+.hover-effect {
+    background-color: white !important;
+    border: 1px solid #5B8C5A !important;
+}
+.hover-border-effect {
+    border: 1px solid #5B8C5A !important;
+}
+#mobile-nav-buttons {
+        display: none;
+    }
+    #desktop-navbar {
+        display: block;
+        position: sticky;
+    }
+@media (max-width: 768px) {
+    #mobile-nav-buttons {
+        display: block;
+    }
+    #desktop-navbar {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    #card-cover1 {
+        background-position: center 50%; /* Different position for mobile */
+    }
+    #card-cover2 {
+        background-position: center 80%; /* Different position for mobile */
+    }
+    #card-cover3 {
+        background-position: center 35%; /* Different position for mobile */
+    }
+}
